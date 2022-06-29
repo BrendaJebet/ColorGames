@@ -1,0 +1,60 @@
+body {
+	font-family: Arial;
+	text-align: center;
+	margin: 10px;
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.rgb {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.colors {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+}
+.colors__block {
+	height: 200px;
+	width:28%;
+	background: #ddd;
+	cursor: pointer;
+	transition: background 0.4s ease;
+	border-radius: 10px;
+}
+
+.status {
+	min-width: 300px;
+	width: 60vw;
+	margin: 20px auto;
+	font-size: 1rem;
+}
+
+.diff {
+	margin: 20px auto;
+}
+
+.diff__btn {
+	font-size: 14px;
+	border: solid 1px;
+	border-radius: 50%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.diff__btn.active {
+	background: black;
+	color: white;
+	border-color: black;
+}
